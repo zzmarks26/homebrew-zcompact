@@ -1,12 +1,10 @@
 class Zcompact < Formula
   desc "JSON compaction with queryable ID index"
-  homepage "https://github.com/zackmarks/zcompact"
+  homepage "https://github.com/zzmarks26/Zcompact"
+  url "https://github.com/zzmarks26/Zcompact/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "3d361fa2573e1ec8b25e34e62be2c8261b5d325164f342f364acae7182a1fe2c"
   license "MIT"
-  head "https://github.com/zackmarks/zcompact.git", branch: "main"
-
-  # Uncomment and update when you create a release:
-  # url "https://github.com/zackmarks/zcompact/archive/refs/tags/v1.0.0.tar.gz"
-  # sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  head "https://github.com/zzmarks26/Zcompact.git", branch: "main"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
